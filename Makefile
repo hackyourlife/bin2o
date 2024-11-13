@@ -41,7 +41,7 @@ $(BUILD):
 
 clean:
 	@echo "[CLEAN]"
-	@rm -rf $(BUILD) $(TFILES) $(OFILES) demo
+	@rm -rf $(BUILD) $(TFILES) $(OFILES) $(TARGET)
 
 $(TARGET): $(TFILES)
 
