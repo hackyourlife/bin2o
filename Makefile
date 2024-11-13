@@ -14,7 +14,7 @@ INCLUDES	:=	include
 SOURCES		:=	src
 BUILD		:=	build
 
-CFLAGS		:=	-O3 -g -Wall -std=c99 \
+CFLAGS		:=	-O3 -g -Wall -Wextra -std=c99 \
 			-D_POSIX_C_SOURCE=200809L \
 			-ffunction-sections -fdata-sections \
 			$(INCLUDE) -DUNIX #-fsanitize=address
